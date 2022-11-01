@@ -4,8 +4,7 @@
 /settings.xml
 /backup
 /test-data/*
-!/test-data/rc2019
-!/test-data/rc2022
+!/test-data/imgs
 /.idea
 cmake-build*
 /.dir-locals.el
