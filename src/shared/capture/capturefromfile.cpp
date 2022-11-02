@@ -48,9 +48,7 @@ CaptureFromFile::CaptureFromFile(VarList * _settings, int default_camera_id, QOb
   conversion_settings-> addChild(v_raw_height=new VarInt("raw height", 2048));
 
   //=======================CAPTURE SETTINGS==========================
-  ostringstream convert;
-  convert << "test-data/imgs" << default_camera_id << "-2";
-  capture_settings->addChild(v_cap_dir = new VarString("directory", convert.str()));
+  capture_settings->addChild(v_cap_dir = new VarString("directory", "test-data/imgs"));
 
   // Valid file endings
   validImageFileEndings.push_back("PNG");
