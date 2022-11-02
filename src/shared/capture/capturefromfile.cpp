@@ -49,7 +49,7 @@ CaptureFromFile::CaptureFromFile(VarList * _settings, int default_camera_id, QOb
 
   //=======================CAPTURE SETTINGS==========================
   ostringstream convert;
-  convert << "test-data/rc2022/bots-center-ball-" << default_camera_id << "-2";
+  convert << "test-data/imgs" << default_camera_id << "-2";
   capture_settings->addChild(v_cap_dir = new VarString("directory", convert.str()));
 
   // Valid file endings
