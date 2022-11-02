@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <VarXML>
 	<Var name="Global" type="list">
 		<Var name="Field Configuration" type="list">
@@ -879,13 +879,13 @@
 					3
 				</Var>
 				<Var name="Max Width (pixels)" type="int" minval="" maxval="">
-					30
+					50
 				</Var>
 				<Var name="Min Height (pixels)" type="int" minval="" maxval="">
 					3
 				</Var>
 				<Var name="Max Height (pixels)" type="int" minval="" maxval="">
-					30
+					50
 				</Var>
 				<Var name="Min Area (sq-pixels)" type="int" minval="" maxval="">
 					9
@@ -952,13 +952,13 @@
 						true
 					</Var>
 					<Var name="Marker Image File" type="string">
-						patterns/teams/standard2010_16.png
+						patterns/teams/standard_vsss.png
 					</Var>
 					<Var name="Marker Image Rows" type="int" minval="" maxval="">
-						4
+						2
 					</Var>
 					<Var name="Marker Image Cols" type="int" minval="" maxval="">
-						4
+						2
 					</Var>
 					<Var name="Valid Patterns" type="selection">
 						<Var name="0" type="bool">
@@ -1013,10 +1013,10 @@
 				</Var>
 				<Var name="Center Marker Settings" type="list">
 					<Var name="Expected Area Mean (sq-mm)" type="double" minval="" maxval="">
-						2500.000000
+						750.000000
 					</Var>
 					<Var name="Expected StdDev (sq-mm)" type="double" minval="" maxval="">
-						900.000000
+						800.000000
 					</Var>
 					<Var name="Uniform" type="double" minval="" maxval="">
 						0.050000
@@ -1025,13 +1025,13 @@
 						4
 					</Var>
 					<Var name="Max Width (pixels)" type="int" minval="" maxval="">
-						30
+						100
 					</Var>
 					<Var name="Min Height (pixels)" type="int" minval="" maxval="">
 						4
 					</Var>
 					<Var name="Max Height (pixels)" type="int" minval="" maxval="">
-						30
+						100
 					</Var>
 					<Var name="Min Area (sq-pixels)" type="int" minval="" maxval="">
 						15
@@ -1048,13 +1048,13 @@
 						4
 					</Var>
 					<Var name="Max Width (pixels)" type="int" minval="" maxval="">
-						40
+						100
 					</Var>
 					<Var name="Min Height (pixels)" type="int" minval="" maxval="">
 						4
 					</Var>
 					<Var name="Max Height (pixels)" type="int" minval="" maxval="">
-						40
+						100
 					</Var>
 					<Var name="Min Area (sq-pixels)" type="int" minval="" maxval="">
 						15
