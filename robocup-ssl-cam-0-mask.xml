@@ -3,15 +3,15 @@
 	<Var name="Convex Hull Points" type="list">
 		<Var name="" type="list">
 			<Var name="x" type="int" minval="" maxval="">
-				317
+				226
 			</Var>
 			<Var name="y" type="int" minval="" maxval="">
-				1060
+				1
 			</Var>
 		</Var>
 		<Var name="" type="list">
 			<Var name="x" type="int" minval="" maxval="">
-				327
+				267
 			</Var>
 			<Var name="y" type="int" minval="" maxval="">
 				0
@@ -19,26 +19,42 @@
 		</Var>
 		<Var name="" type="list">
 			<Var name="x" type="int" minval="" maxval="">
-				1614
+				237
 			</Var>
 			<Var name="y" type="int" minval="" maxval="">
-				5
+				718
 			</Var>
 		</Var>
 		<Var name="" type="list">
 			<Var name="x" type="int" minval="" maxval="">
-				1599
+				1054
 			</Var>
 			<Var name="y" type="int" minval="" maxval="">
-				1048
+				696
 			</Var>
 		</Var>
 		<Var name="" type="list">
 			<Var name="x" type="int" minval="" maxval="">
-				380
+				1070
 			</Var>
 			<Var name="y" type="int" minval="" maxval="">
-				1079
+				0
+			</Var>
+		</Var>
+		<Var name="" type="list">
+			<Var name="x" type="int" minval="" maxval="">
+				236
+			</Var>
+			<Var name="y" type="int" minval="" maxval="">
+				0
+			</Var>
+		</Var>
+		<Var name="" type="list">
+			<Var name="x" type="int" minval="" maxval="">
+				217
+			</Var>
+			<Var name="y" type="int" minval="" maxval="">
+				0
 			</Var>
 		</Var>
 	</Var>
