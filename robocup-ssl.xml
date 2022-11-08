@@ -876,22 +876,22 @@
 					30.000000
 				</Var>
 				<Var name="Min Width (pixels)" type="int" minval="" maxval="">
-					3
+					5
 				</Var>
 				<Var name="Max Width (pixels)" type="int" minval="" maxval="">
-					50
+					30
 				</Var>
 				<Var name="Min Height (pixels)" type="int" minval="" maxval="">
-					3
+					5
 				</Var>
 				<Var name="Max Height (pixels)" type="int" minval="" maxval="">
-					50
+					30
 				</Var>
 				<Var name="Min Area (sq-pixels)" type="int" minval="" maxval="">
-					9
+					5
 				</Var>
 				<Var name="Max Area (sq-pixels)" type="int" minval="" maxval="">
-					1000
+					500
 				</Var>
 			</Var>
 			<Var name="Gaussian Size Filter" type="list">
@@ -968,105 +968,105 @@
 							true
 						</Var>
 						<Var name="2" type="bool">
-							true
+							false
 						</Var>
 						<Var name="3" type="bool">
-							true
+							false
 						</Var>
 						<Var name="4" type="bool">
-							true
+							false
 						</Var>
 						<Var name="5" type="bool">
-							true
+							false
 						</Var>
 						<Var name="6" type="bool">
-							true
+							false
 						</Var>
 						<Var name="7" type="bool">
-							true
+							false
 						</Var>
 						<Var name="8" type="bool">
-							true
+							false
 						</Var>
 						<Var name="9" type="bool">
-							true
+							false
 						</Var>
 						<Var name="10" type="bool">
-							true
+							false
 						</Var>
 						<Var name="11" type="bool">
-							true
+							false
 						</Var>
 						<Var name="12" type="bool">
-							true
+							false
 						</Var>
 						<Var name="13" type="bool">
-							true
+							false
 						</Var>
 						<Var name="14" type="bool">
-							true
+							false
 						</Var>
 						<Var name="15" type="bool">
-							true
+							false
 						</Var>
 					</Var>
 				</Var>
 				<Var name="Center Marker Settings" type="list">
 					<Var name="Expected Area Mean (sq-mm)" type="double" minval="" maxval="">
-						750.000000
+						30.000000
 					</Var>
 					<Var name="Expected StdDev (sq-mm)" type="double" minval="" maxval="">
-						800.000000
+						60.000000
 					</Var>
 					<Var name="Uniform" type="double" minval="" maxval="">
 						0.050000
 					</Var>
 					<Var name="Min Width (pixels)" type="int" minval="" maxval="">
-						4
+						10
 					</Var>
 					<Var name="Max Width (pixels)" type="int" minval="" maxval="">
-						100
+						800
 					</Var>
 					<Var name="Min Height (pixels)" type="int" minval="" maxval="">
-						4
+						10
 					</Var>
 					<Var name="Max Height (pixels)" type="int" minval="" maxval="">
-						100
+						800
 					</Var>
 					<Var name="Min Area (sq-pixels)" type="int" minval="" maxval="">
-						15
+						10
 					</Var>
 					<Var name="Max Area (sq-pixels)" type="int" minval="" maxval="">
-						400
+						1000
 					</Var>
 					<Var name="Duplicate Merge Distance (mm)" type="int" minval="" maxval="">
-						135
+						150
 					</Var>
 				</Var>
 				<Var name="Other Markers Settings" type="list">
 					<Var name="Min Width (pixels)" type="int" minval="" maxval="">
-						4
+						5
 					</Var>
 					<Var name="Max Width (pixels)" type="int" minval="" maxval="">
-						100
+						50
 					</Var>
 					<Var name="Min Height (pixels)" type="int" minval="" maxval="">
-						4
+						2
 					</Var>
 					<Var name="Max Height (pixels)" type="int" minval="" maxval="">
-						100
+						50
 					</Var>
 					<Var name="Min Area (sq-pixels)" type="int" minval="" maxval="">
-						15
+						5
 					</Var>
 					<Var name="Max Area (sq-pixels)" type="int" minval="" maxval="">
-						600
+						500
 					</Var>
 					<Var name="Max Num Markers To Detect" type="int" minval="" maxval="">
-						16
+						2
 					</Var>
 					<Var name="Max Query Distance" type="double" minval="" maxval="">
-						20.000000
+						200.000000
 					</Var>
 				</Var>
 				<Var name="Histogram Settings" type="list">
@@ -1097,7 +1097,7 @@
 				</Var>
 				<Var name="Pattern Fitting" type="list">
 					<Var name="Max Marker Center Dist (mm)" type="double" minval="" maxval="">
-						100.000000
+						50.000000
 					</Var>
 					<Var name="Weight Area" type="double" minval="" maxval="">
 						0.100000
@@ -1347,7 +1347,7 @@
 				<Var name="re-read params" type="trigger">
 				</Var>
 				<Var name="Capture Module" type="stringenum">
-					Read from files
+					Video 4 Linux
 					<Var name="0" type="string">
 						None
 					</Var>
@@ -1946,16 +1946,16 @@
 				</Var>
 				<Var name="Capture Settings" type="list">
 					<Var name="cam idx" type="int" minval="" maxval="">
-						0
+						1
 					</Var>
 					<Var name="framerate" type="int" minval="" maxval="">
 						30
 					</Var>
 					<Var name="width" type="int" minval="" maxval="">
-						640
+						1280
 					</Var>
 					<Var name="height" type="int" minval="" maxval="">
-						480
+						720
 					</Var>
 					<Var name="left" type="int" minval="" maxval="">
 						0
@@ -1985,12 +1985,12 @@
 				<Var name="Camera Parameters" type="list">
 					<Var name="brightness" type="list">
 						<Var name="enabled" type="bool">
-							false
+							true
 						</Var>
 						<Var name="default" type="bool">
 							false
 						</Var>
-						<Var name="value" type="int" minval="" maxval="">
+						<Var name="value" type="int" minval="0" maxval="255">
 							0
 						</Var>
 						<Var name="was_read" type="bool">
@@ -1999,12 +1999,12 @@
 					</Var>
 					<Var name="sharpness" type="list">
 						<Var name="enabled" type="bool">
-							false
+							true
 						</Var>
 						<Var name="defulat" type="int" minval="" maxval="">
 							0
 						</Var>
-						<Var name="value" type="int" minval="" maxval="">
+						<Var name="value" type="int" minval="0" maxval="255">
 							0
 						</Var>
 						<Var name="was_read" type="bool">
@@ -2013,7 +2013,7 @@
 					</Var>
 					<Var name="white balance" type="list">
 						<Var name="enabled" type="bool">
-							false
+							true
 						</Var>
 						<Var name="auto" type="bool">
 							false
@@ -2038,12 +2038,12 @@
 					</Var>
 					<Var name="saturation" type="list">
 						<Var name="enabled" type="bool">
-							false
+							true
 						</Var>
 						<Var name="default" type="bool">
 							false
 						</Var>
-						<Var name="value" type="int" minval="" maxval="">
+						<Var name="value" type="int" minval="0" maxval="255">
 							0
 						</Var>
 						<Var name="was_read" type="bool">
@@ -2080,12 +2080,12 @@
 					</Var>
 					<Var name="contrast" type="list">
 						<Var name="enabled" type="bool">
-							false
+							true
 						</Var>
 						<Var name="default" type="bool">
 							false
 						</Var>
-						<Var name="value" type="int" minval="" maxval="">
+						<Var name="value" type="int" minval="0" maxval="255">
 							0
 						</Var>
 						<Var name="was_read" type="bool">
@@ -2094,13 +2094,13 @@
 					</Var>
 					<Var name="temperature" type="list">
 						<Var name="enabled" type="bool">
-							false
+							true
 						</Var>
 						<Var name="default" type="bool">
 							false
 						</Var>
-						<Var name="value" type="int" minval="" maxval="">
-							0
+						<Var name="value" type="int" minval="2000" maxval="6500">
+							2000
 						</Var>
 						<Var name="was_read" type="bool">
 							false
@@ -2108,12 +2108,12 @@
 					</Var>
 					<Var name="gain" type="list">
 						<Var name="enabled" type="bool">
-							false
+							true
 						</Var>
 						<Var name="default" type="bool">
 							false
 						</Var>
-						<Var name="value" type="int" minval="" maxval="">
+						<Var name="value" type="int" minval="0" maxval="255">
 							0
 						</Var>
 						<Var name="was_read" type="bool">
@@ -2196,34 +2196,34 @@
 		<Var name="Camera Calibrator" type="list">
 			<Var name="Camera Parameters" type="list">
 				<Var name="focal length" type="double" minval="" maxval="">
-					1613.475528
+					1077.487130
 				</Var>
 				<Var name="principal point x" type="double" minval="" maxval="">
-					1008.328288
+					609.855205
 				</Var>
 				<Var name="principal point y" type="double" minval="" maxval="">
-					448.410862
+					290.369664
 				</Var>
 				<Var name="distortion" type="double" minval="-1.000000" maxval="2.000000">
 					-0.040000
 				</Var>
 				<Var name="q0" type="double" minval="" maxval="">
-					0.999056
+					0.999218
 				</Var>
 				<Var name="q1" type="double" minval="" maxval="">
-					-0.002063
+					0.002137
 				</Var>
 				<Var name="q2" type="double" minval="" maxval="">
-					0.037228
+					0.035006
 				</Var>
 				<Var name="q3" type="double" minval="" maxval="">
-					-0.022276
+					-0.018265
 				</Var>
 				<Var name="tx" type="double" minval="" maxval="">
-					-16.167252
+					85.814174
 				</Var>
 				<Var name="ty" type="double" minval="" maxval="">
-					105.529379
+					118.273248
 				</Var>
 				<Var name="tz" type="double" minval="0.000000" maxval="6500.000000">
 					2014.000000
@@ -2235,10 +2235,10 @@
 						CP 0
 					</Var>
 					<Var name="Control point 0 image x" type="double" minval="" maxval="">
-						390.000000
+						256.000000
 					</Var>
 					<Var name="Control point 0 image y" type="double" minval="" maxval="">
-						1062.000000
+						699.000000
 					</Var>
 					<Var name="Control point 0 field x" type="double" minval="" maxval="">
 						-750.000000
@@ -2252,10 +2252,10 @@
 						CP 1
 					</Var>
 					<Var name="Control point 1 image x" type="double" minval="" maxval="">
-						360.000000
+						244.000000
 					</Var>
 					<Var name="Control point 1 image y" type="double" minval="" maxval="">
-						7.000000
+						5.000000
 					</Var>
 					<Var name="Control point 1 field x" type="double" minval="" maxval="">
 						-750.000000
@@ -2269,10 +2269,10 @@
 						CP 2
 					</Var>
 					<Var name="Control point 2 image x" type="double" minval="" maxval="">
-						1589.000000
+						1052.000000
 					</Var>
 					<Var name="Control point 2 image y" type="double" minval="" maxval="">
-						19.000000
+						13.000000
 					</Var>
 					<Var name="Control point 2 field x" type="double" minval="" maxval="">
 						750.000000
@@ -2286,10 +2286,10 @@
 						CP 3
 					</Var>
 					<Var name="Control point 3 image x" type="double" minval="" maxval="">
-						1575.000000
+						1037.000000
 					</Var>
 					<Var name="Control point 3 image y" type="double" minval="" maxval="">
-						1027.000000
+						685.000000
 					</Var>
 					<Var name="Control point 3 field x" type="double" minval="" maxval="">
 						750.000000
@@ -2332,10 +2332,10 @@
 					150.000000
 				</Var>
 				<Var name="Image width" type="int" minval="0" maxval="">
-					1920
+					1280
 				</Var>
 				<Var name="Image height" type="int" minval="0" maxval="">
-					1080
+					720
 				</Var>
 			</Var>
 		</Var>
@@ -2351,7 +2351,7 @@
 		</Var>
 		<Var name="Blob Finding" type="list">
 			<Var name="min_blob_area" type="int" minval="" maxval="">
-				500
+				200
 			</Var>
 			<Var name="enable" type="bool">
 				true
@@ -2369,13 +2369,13 @@
 						true
 					</Var>
 					<Var name="y" type="int" minval="0" maxval="255">
-						208
+						171
 					</Var>
 					<Var name="u" type="int" minval="0" maxval="255">
-						72
+						96
 					</Var>
 					<Var name="v" type="int" minval="0" maxval="255">
-						161
+						187
 					</Var>
 					<Var name="channel" type="int" minval="0" maxval="">
 						2
@@ -2397,13 +2397,13 @@
 						true
 					</Var>
 					<Var name="y" type="int" minval="0" maxval="255">
-						164
+						152
 					</Var>
 					<Var name="u" type="int" minval="0" maxval="255">
-						130
+						137
 					</Var>
 					<Var name="v" type="int" minval="0" maxval="255">
-						191
+						201
 					</Var>
 					<Var name="channel" type="int" minval="0" maxval="">
 						5
@@ -2425,16 +2425,72 @@
 						true
 					</Var>
 					<Var name="y" type="int" minval="0" maxval="255">
-						160
+						150
 					</Var>
 					<Var name="u" type="int" minval="0" maxval="255">
-						179
+						182
 					</Var>
 					<Var name="v" type="int" minval="0" maxval="255">
-						57
+						37
 					</Var>
 					<Var name="channel" type="int" minval="0" maxval="">
 						4
+					</Var>
+					<Var name="maxAngle" type="double" minval="0.010000" maxval="1.570000">
+						0.300000
+					</Var>
+					<Var name="maxDistance" type="double" minval="0.000000" maxval="10000.000000">
+						3000.000000
+					</Var>
+					<Var name="weight" type="double" minval="0.000000" maxval="10.000000">
+						1.000000
+					</Var>
+					<Var name="Remove" type="trigger">
+					</Var>
+				</Var>
+				<Var name="Pink sample" type="list">
+					<Var name="use" type="bool">
+						true
+					</Var>
+					<Var name="y" type="int" minval="0" maxval="255">
+						147
+					</Var>
+					<Var name="u" type="int" minval="0" maxval="255">
+						137
+					</Var>
+					<Var name="v" type="int" minval="0" maxval="255">
+						204
+					</Var>
+					<Var name="channel" type="int" minval="0" maxval="">
+						5
+					</Var>
+					<Var name="maxAngle" type="double" minval="0.010000" maxval="1.570000">
+						0.300000
+					</Var>
+					<Var name="maxDistance" type="double" minval="0.000000" maxval="10000.000000">
+						3000.000000
+					</Var>
+					<Var name="weight" type="double" minval="0.000000" maxval="10.000000">
+						1.000000
+					</Var>
+					<Var name="Remove" type="trigger">
+					</Var>
+				</Var>
+				<Var name="Pink sample" type="list">
+					<Var name="use" type="bool">
+						true
+					</Var>
+					<Var name="y" type="int" minval="0" maxval="255">
+						107
+					</Var>
+					<Var name="u" type="int" minval="0" maxval="255">
+						127
+					</Var>
+					<Var name="v" type="int" minval="0" maxval="255">
+						129
+					</Var>
+					<Var name="channel" type="int" minval="0" maxval="">
+						5
 					</Var>
 					<Var name="maxAngle" type="double" minval="0.010000" maxval="1.570000">
 						0.300000
